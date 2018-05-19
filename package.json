@@ -1,0 +1,25 @@
+{
+  "name": "beappjs",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-w": "./node_modules/.bin/pm2 start ./index.js --watch",
+    "stop-w": "./node_modules/.bin/pm2 stop ./index.js --watch 0"
+  },
+  "author": "r.berlochi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jade": "^1.11.0",
+    "nano": "^6.4.3",
+    "q": "^1.5.1",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "eslint": "^4.19.1",
+    "pm2": "^2.10.3"
+  }
+}

@@ -1,0 +1,23 @@
+ENTITIES
+cities
+countries
+languages
+
+RELATIONSHIPS
+
+
+ACTIONS
+cities/ (collection) GET
+cities/{id} GET
+cities/{id}?querystring PUT (modify)
+cities/add/ POST
+
+country/ (collection) GET
+country/{id} GET
+country/{id}?querystring PUT (modify)
+country/add/ POST
+
+
+login
+cors
+jsonp
